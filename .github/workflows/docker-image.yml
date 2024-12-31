@@ -28,7 +28,7 @@ jobs:
         docker build -t jesusyael/docker-grapghql:0.0.2 .
     - name: Push Docker Image
       run: |
-        docker push jesusyael/docker-grapghql:0.0.2 .
+        docker push jesusyael/docker-grapghql:0.0.2
 
 
 
